@@ -54,5 +54,9 @@ export default function NextRouter() {
 }
 
 export async function getServerSideProps() {
-    return { props: {} };
+    return {
+        props: {
+            a: 1,
+        },
+    };
 }
